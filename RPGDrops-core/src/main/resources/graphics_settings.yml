@@ -1,0 +1,2481 @@
+example_material:
+  scale: 1.0
+  translation_x: 0.0
+  translation_y: 0.0
+  translation_z: 0.0
+  rotation_left_degrees: 0.0
+  rotation_left_axis_x: 0.0
+  rotation_left_axis_y: 0.0
+  rotation_left_axis_z: 0.0
+template_block:
+  scale: 0.65
+  translation_x: 0.0
+  translation_y: 0.15
+  translation_z: 0.0
+  rotation_left_degrees: 0.0
+  rotation_left_axis_x: 0.0
+  rotation_left_axis_y: 0.0
+  rotation_left_axis_z: 0.0
+template_2d_item:
+  scale: 0.65
+  translation_x: 0.0
+  translation_y: 0.0
+  translation_z: 0.0
+  rotation_left_degrees: -90.0
+  rotation_left_axis_x: 1.0
+  rotation_left_axis_y: 0.0
+  rotation_left_axis_z: 0.0
+STONE:
+  use_template: template_block
+GRANITE:
+  use_template: template_block
+POLISHED_GRANITE:
+  use_template: template_block
+DIORITE:
+  use_template: template_block
+POLISHED_DIORITE:
+  use_template: template_block
+ANDESITE:
+  use_template: template_block
+POLISHED_ANDESITE:
+  use_template: template_block
+DEEPSLATE:
+  use_template: template_block
+COBBLED_DEEPSLATE:
+  use_template: template_block
+POLISHED_DEEPSLATE:
+  use_template: template_block
+CALCITE:
+  use_template: template_block
+TUFF:
+  use_template: template_block
+DRIPSTONE_BLOCK:
+  use_template: template_block
+GRASS_BLOCK:
+  use_template: template_block
+DIRT:
+  use_template: template_block
+COARSE_DIRT:
+  use_template: template_block
+PODZOL:
+  use_template: template_block
+ROOTED_DIRT:
+  use_template: template_block
+MUD:
+  use_template: template_block
+CRIMSON_NYLIUM:
+  use_template: template_block
+WARPED_NYLIUM:
+  use_template: template_block
+COBBLESTONE:
+  use_template: template_block
+OAK_PLANKS:
+  use_template: template_block
+SPRUCE_PLANKS:
+  use_template: template_block
+BIRCH_PLANKS:
+  use_template: template_block
+JUNGLE_PLANKS:
+  use_template: template_block
+ACACIA_PLANKS:
+  use_template: template_block
+CHERRY_PLANKS:
+  use_template: template_2d_item
+DARK_OAK_PLANKS:
+  use_template: template_block
+MANGROVE_PLANKS:
+  use_template: template_block
+BAMBOO_PLANKS:
+  use_template: template_block
+CRIMSON_PLANKS:
+  use_template: template_block
+WARPED_PLANKS:
+  use_template: template_block
+BAMBOO_MOSAIC:
+  use_template: template_block
+OAK_SAPLING:
+  use_template: template_2d_item
+SPRUCE_SAPLING:
+  use_template: template_2d_item
+BIRCH_SAPLING:
+  use_template: template_2d_item
+JUNGLE_SAPLING:
+  use_template: template_2d_item
+ACACIA_SAPLING:
+  use_template: template_2d_item
+CHERRY_SAPLING:
+  use_template: template_2d_item
+DARK_OAK_SAPLING:
+  use_template: template_2d_item
+MANGROVE_PROPAGULE:
+  use_template: template_2d_item
+BEDROCK:
+  use_template: template_block
+SAND:
+  use_template: template_block
+SUSPICIOUS_SAND:
+  use_template: template_2d_item
+RED_SAND:
+  use_template: template_block
+GRAVEL:
+  use_template: template_block
+COAL_ORE:
+  use_template: template_block
+DEEPSLATE_COAL_ORE:
+  use_template: template_block
+IRON_ORE:
+  use_template: template_block
+DEEPSLATE_IRON_ORE:
+  use_template: template_block
+COPPER_ORE:
+  use_template: template_block
+DEEPSLATE_COPPER_ORE:
+  use_template: template_block
+GOLD_ORE:
+  use_template: template_block
+DEEPSLATE_GOLD_ORE:
+  use_template: template_block
+REDSTONE_ORE:
+  use_template: template_block
+DEEPSLATE_REDSTONE_ORE:
+  use_template: template_block
+EMERALD_ORE:
+  use_template: template_block
+DEEPSLATE_EMERALD_ORE:
+  use_template: template_block
+LAPIS_ORE:
+  use_template: template_block
+DEEPSLATE_LAPIS_ORE:
+  use_template: template_block
+DIAMOND_ORE:
+  use_template: template_block
+DEEPSLATE_DIAMOND_ORE:
+  use_template: template_block
+NETHER_GOLD_ORE:
+  use_template: template_block
+NETHER_QUARTZ_ORE:
+  use_template: template_block
+ANCIENT_DEBRIS:
+  use_template: template_block
+COAL_BLOCK:
+  use_template: template_block
+RAW_IRON_BLOCK:
+  use_template: template_block
+RAW_COPPER_BLOCK:
+  use_template: template_block
+RAW_GOLD_BLOCK:
+  use_template: template_block
+AMETHYST_BLOCK:
+  use_template: template_block
+BUDDING_AMETHYST:
+  use_template: template_block
+IRON_BLOCK:
+  use_template: template_block
+COPPER_BLOCK:
+  use_template: template_block
+GOLD_BLOCK:
+  use_template: template_block
+DIAMOND_BLOCK:
+  use_template: template_block
+NETHERITE_BLOCK:
+  use_template: template_block
+EXPOSED_COPPER:
+  use_template: template_block
+WEATHERED_COPPER:
+  use_template: template_block
+OXIDIZED_COPPER:
+  use_template: template_block
+CUT_COPPER:
+  use_template: template_block
+EXPOSED_CUT_COPPER:
+  use_template: template_block
+WEATHERED_CUT_COPPER:
+  use_template: template_block
+OXIDIZED_CUT_COPPER:
+  use_template: template_block
+CUT_COPPER_STAIRS:
+  use_template: template_block
+EXPOSED_CUT_COPPER_STAIRS:
+  use_template: template_block
+WEATHERED_CUT_COPPER_STAIRS:
+  use_template: template_block
+OXIDIZED_CUT_COPPER_STAIRS:
+  use_template: template_block
+CUT_COPPER_SLAB:
+  use_template: template_block
+EXPOSED_CUT_COPPER_SLAB:
+  use_template: template_block
+WEATHERED_CUT_COPPER_SLAB:
+  use_template: template_block
+OXIDIZED_CUT_COPPER_SLAB:
+  use_template: template_block
+WAXED_COPPER_BLOCK:
+  use_template: template_block
+WAXED_EXPOSED_COPPER:
+  use_template: template_block
+WAXED_WEATHERED_COPPER:
+  use_template: template_block
+WAXED_OXIDIZED_COPPER:
+  use_template: template_block
+WAXED_CUT_COPPER:
+  use_template: template_block
+WAXED_EXPOSED_CUT_COPPER:
+  use_template: template_block
+WAXED_WEATHERED_CUT_COPPER:
+  use_template: template_block
+WAXED_OXIDIZED_CUT_COPPER:
+  use_template: template_block
+WAXED_CUT_COPPER_STAIRS:
+  use_template: template_block
+WAXED_EXPOSED_CUT_COPPER_STAIRS:
+  use_template: template_block
+WAXED_WEATHERED_CUT_COPPER_STAIRS:
+  use_template: template_block
+WAXED_OXIDIZED_CUT_COPPER_STAIRS:
+  use_template: template_block
+WAXED_CUT_COPPER_SLAB:
+  use_template: template_block
+WAXED_EXPOSED_CUT_COPPER_SLAB:
+  use_template: template_block
+WAXED_WEATHERED_CUT_COPPER_SLAB:
+  use_template: template_block
+WAXED_OXIDIZED_CUT_COPPER_SLAB:
+  use_template: template_block
+OAK_LOG:
+  use_template: template_block
+SPRUCE_LOG:
+  use_template: template_block
+BIRCH_LOG:
+  use_template: template_block
+JUNGLE_LOG:
+  use_template: template_block
+ACACIA_LOG:
+  use_template: template_block
+CHERRY_LOG:
+  use_template: template_2d_item
+DARK_OAK_LOG:
+  use_template: template_block
+MANGROVE_LOG:
+  use_template: template_block
+MANGROVE_ROOTS:
+  use_template: template_block
+MUDDY_MANGROVE_ROOTS:
+  use_template: template_block
+CRIMSON_STEM:
+  use_template: template_block
+WARPED_STEM:
+  use_template: template_block
+BAMBOO_BLOCK:
+  use_template: template_block
+STRIPPED_OAK_LOG:
+  use_template: template_block
+STRIPPED_SPRUCE_LOG:
+  use_template: template_block
+STRIPPED_BIRCH_LOG:
+  use_template: template_block
+STRIPPED_JUNGLE_LOG:
+  use_template: template_block
+STRIPPED_ACACIA_LOG:
+  use_template: template_block
+STRIPPED_CHERRY_LOG:
+  use_template: template_2d_item
+STRIPPED_DARK_OAK_LOG:
+  use_template: template_block
+STRIPPED_MANGROVE_LOG:
+  use_template: template_block
+STRIPPED_CRIMSON_STEM:
+  use_template: template_block
+STRIPPED_WARPED_STEM:
+  use_template: template_block
+STRIPPED_OAK_WOOD:
+  use_template: template_block
+STRIPPED_SPRUCE_WOOD:
+  use_template: template_block
+STRIPPED_BIRCH_WOOD:
+  use_template: template_block
+STRIPPED_JUNGLE_WOOD:
+  use_template: template_block
+STRIPPED_ACACIA_WOOD:
+  use_template: template_block
+STRIPPED_CHERRY_WOOD:
+  use_template: template_2d_item
+STRIPPED_DARK_OAK_WOOD:
+  use_template: template_block
+STRIPPED_MANGROVE_WOOD:
+  use_template: template_block
+STRIPPED_CRIMSON_HYPHAE:
+  use_template: template_block
+STRIPPED_WARPED_HYPHAE:
+  use_template: template_block
+STRIPPED_BAMBOO_BLOCK:
+  use_template: template_block
+OAK_WOOD:
+  use_template: template_block
+SPRUCE_WOOD:
+  use_template: template_block
+BIRCH_WOOD:
+  use_template: template_block
+JUNGLE_WOOD:
+  use_template: template_block
+ACACIA_WOOD:
+  use_template: template_block
+CHERRY_WOOD:
+  use_template: template_2d_item
+DARK_OAK_WOOD:
+  use_template: template_block
+MANGROVE_WOOD:
+  use_template: template_block
+CRIMSON_HYPHAE:
+  use_template: template_block
+WARPED_HYPHAE:
+  use_template: template_block
+OAK_LEAVES:
+  use_template: template_block
+SPRUCE_LEAVES:
+  use_template: template_block
+BIRCH_LEAVES:
+  use_template: template_block
+JUNGLE_LEAVES:
+  use_template: template_block
+ACACIA_LEAVES:
+  use_template: template_block
+CHERRY_LEAVES:
+  use_template: template_2d_item
+DARK_OAK_LEAVES:
+  use_template: template_block
+MANGROVE_LEAVES:
+  use_template: template_block
+AZALEA_LEAVES:
+  use_template: template_block
+FLOWERING_AZALEA_LEAVES:
+  use_template: template_block
+SPONGE:
+  use_template: template_block
+WET_SPONGE:
+  use_template: template_block
+GLASS:
+  use_template: template_block
+TINTED_GLASS:
+  use_template: template_block
+LAPIS_BLOCK:
+  use_template: template_block
+SANDSTONE:
+  use_template: template_block
+CHISELED_SANDSTONE:
+  use_template: template_block
+CUT_SANDSTONE:
+  use_template: template_block
+COBWEB:
+  use_template: template_2d_item
+GRASS:
+  use_template: template_2d_item
+FERN:
+  use_template: template_2d_item
+AZALEA:
+  use_template: template_block
+FLOWERING_AZALEA:
+  use_template: template_block
+DEAD_BUSH:
+  use_template: template_2d_item
+SEAGRASS:
+  use_template: template_2d_item
+SEA_PICKLE:
+  use_template: template_2d_item
+WHITE_WOOL:
+  use_template: template_block
+ORANGE_WOOL:
+  use_template: template_block
+MAGENTA_WOOL:
+  use_template: template_block
+LIGHT_BLUE_WOOL:
+  use_template: template_block
+YELLOW_WOOL:
+  use_template: template_block
+LIME_WOOL:
+  use_template: template_block
+PINK_WOOL:
+  use_template: template_block
+GRAY_WOOL:
+  use_template: template_block
+LIGHT_GRAY_WOOL:
+  use_template: template_block
+CYAN_WOOL:
+  use_template: template_block
+PURPLE_WOOL:
+  use_template: template_block
+BLUE_WOOL:
+  use_template: template_block
+BROWN_WOOL:
+  use_template: template_block
+GREEN_WOOL:
+  use_template: template_block
+RED_WOOL:
+  use_template: template_block
+BLACK_WOOL:
+  use_template: template_block
+DANDELION:
+  use_template: template_2d_item
+POPPY:
+  use_template: template_2d_item
+BLUE_ORCHID:
+  use_template: template_2d_item
+ALLIUM:
+  use_template: template_2d_item
+AZURE_BLUET:
+  use_template: template_2d_item
+RED_TULIP:
+  use_template: template_2d_item
+ORANGE_TULIP:
+  use_template: template_2d_item
+WHITE_TULIP:
+  use_template: template_2d_item
+PINK_TULIP:
+  use_template: template_2d_item
+OXEYE_DAISY:
+  use_template: template_2d_item
+CORNFLOWER:
+  use_template: template_2d_item
+LILY_OF_THE_VALLEY:
+  use_template: template_2d_item
+WITHER_ROSE:
+  use_template: template_2d_item
+TORCHFLOWER:
+  use_template: template_2d_item
+SPORE_BLOSSOM:
+  use_template: template_block
+BROWN_MUSHROOM:
+  use_template: template_2d_item
+RED_MUSHROOM:
+  use_template: template_2d_item
+CRIMSON_FUNGUS:
+  use_template: template_2d_item
+WARPED_FUNGUS:
+  use_template: template_2d_item
+CRIMSON_ROOTS:
+  use_template: template_2d_item
+WARPED_ROOTS:
+  use_template: template_2d_item
+NETHER_SPROUTS:
+  use_template: template_2d_item
+WEEPING_VINES:
+  use_template: template_2d_item
+TWISTING_VINES:
+  use_template: template_2d_item
+SUGAR_CANE:
+  use_template: template_2d_item
+KELP:
+  use_template: template_2d_item
+MOSS_CARPET:
+  use_template: template_block
+PINK_PETALS:
+  use_template: template_2d_item
+MOSS_BLOCK:
+  use_template: template_block
+HANGING_ROOTS:
+  use_template: template_2d_item
+BIG_DRIPLEAF:
+  use_template: template_block
+SMALL_DRIPLEAF:
+  use_template: template_block
+BAMBOO:
+  use_template: template_2d_item
+OAK_SLAB:
+  use_template: template_block
+SPRUCE_SLAB:
+  use_template: template_block
+BIRCH_SLAB:
+  use_template: template_block
+JUNGLE_SLAB:
+  use_template: template_block
+ACACIA_SLAB:
+  use_template: template_block
+CHERRY_SLAB:
+  use_template: template_2d_item
+DARK_OAK_SLAB:
+  use_template: template_block
+MANGROVE_SLAB:
+  use_template: template_block
+BAMBOO_SLAB:
+  use_template: template_block
+BAMBOO_MOSAIC_SLAB:
+  use_template: template_block
+CRIMSON_SLAB:
+  use_template: template_block
+WARPED_SLAB:
+  use_template: template_block
+STONE_SLAB:
+  use_template: template_block
+SMOOTH_STONE_SLAB:
+  use_template: template_block
+SANDSTONE_SLAB:
+  use_template: template_block
+CUT_SANDSTONE_SLAB:
+  use_template: template_block
+PETRIFIED_OAK_SLAB:
+  use_template: template_block
+COBBLESTONE_SLAB:
+  use_template: template_block
+BRICK_SLAB:
+  use_template: template_block
+STONE_BRICK_SLAB:
+  use_template: template_block
+MUD_BRICK_SLAB:
+  use_template: template_block
+NETHER_BRICK_SLAB:
+  use_template: template_block
+QUARTZ_SLAB:
+  use_template: template_block
+RED_SANDSTONE_SLAB:
+  use_template: template_block
+CUT_RED_SANDSTONE_SLAB:
+  use_template: template_block
+PURPUR_SLAB:
+  use_template: template_block
+PRISMARINE_SLAB:
+  use_template: template_block
+PRISMARINE_BRICK_SLAB:
+  use_template: template_block
+DARK_PRISMARINE_SLAB:
+  use_template: template_block
+SMOOTH_QUARTZ:
+  use_template: template_block
+SMOOTH_RED_SANDSTONE:
+  use_template: template_block
+SMOOTH_SANDSTONE:
+  use_template: template_block
+SMOOTH_STONE:
+  use_template: template_block
+BRICKS:
+  use_template: template_block
+BOOKSHELF:
+  use_template: template_block
+CHISELED_BOOKSHELF:
+  use_template: template_block
+DECORATED_POT:
+  use_template: template_2d_item
+MOSSY_COBBLESTONE:
+  use_template: template_block
+OBSIDIAN:
+  use_template: template_block
+TORCH:
+  use_template: template_2d_item
+END_ROD:
+  use_template: template_block
+CHORUS_PLANT:
+  use_template: template_block
+CHORUS_FLOWER:
+  use_template: template_block
+PURPUR_BLOCK:
+  use_template: template_block
+PURPUR_PILLAR:
+  use_template: template_block
+PURPUR_STAIRS:
+  use_template: template_block
+SPAWNER:
+  use_template: template_block
+CHEST:
+  use_template: template_2d_item
+CRAFTING_TABLE:
+  use_template: template_block
+FARMLAND:
+  use_template: template_block
+FURNACE:
+  use_template: template_block
+LADDER:
+  use_template: template_2d_item
+COBBLESTONE_STAIRS:
+  use_template: template_block
+SNOW:
+  use_template: template_block
+ICE:
+  use_template: template_block
+SNOW_BLOCK:
+  use_template: template_block
+CACTUS:
+  use_template: template_block
+CLAY:
+  use_template: template_block
+JUKEBOX:
+  use_template: template_block
+OAK_FENCE:
+  use_template: template_block
+SPRUCE_FENCE:
+  use_template: template_block
+BIRCH_FENCE:
+  use_template: template_block
+JUNGLE_FENCE:
+  use_template: template_block
+ACACIA_FENCE:
+  use_template: template_block
+CHERRY_FENCE:
+  use_template: template_2d_item
+DARK_OAK_FENCE:
+  use_template: template_block
+MANGROVE_FENCE:
+  use_template: template_block
+BAMBOO_FENCE:
+  use_template: template_block
+CRIMSON_FENCE:
+  use_template: template_block
+WARPED_FENCE:
+  use_template: template_block
+PUMPKIN:
+  use_template: template_block
+CARVED_PUMPKIN:
+  use_template: template_block
+JACK_O_LANTERN:
+  use_template: template_block
+NETHERRACK:
+  use_template: template_block
+SOUL_SAND:
+  use_template: template_block
+SOUL_SOIL:
+  use_template: template_block
+BASALT:
+  use_template: template_block
+POLISHED_BASALT:
+  use_template: template_block
+SMOOTH_BASALT:
+  use_template: template_block
+SOUL_TORCH:
+  use_template: template_2d_item
+GLOWSTONE:
+  use_template: template_block
+INFESTED_STONE:
+  use_template: template_block
+INFESTED_COBBLESTONE:
+  use_template: template_block
+INFESTED_STONE_BRICKS:
+  use_template: template_block
+INFESTED_MOSSY_STONE_BRICKS:
+  use_template: template_block
+INFESTED_CRACKED_STONE_BRICKS:
+  use_template: template_block
+INFESTED_CHISELED_STONE_BRICKS:
+  use_template: template_block
+INFESTED_DEEPSLATE:
+  use_template: template_block
+STONE_BRICKS:
+  use_template: template_block
+MOSSY_STONE_BRICKS:
+  use_template: template_block
+CRACKED_STONE_BRICKS:
+  use_template: template_block
+CHISELED_STONE_BRICKS:
+  use_template: template_block
+PACKED_MUD:
+  use_template: template_block
+MUD_BRICKS:
+  use_template: template_block
+DEEPSLATE_BRICKS:
+  use_template: template_block
+CRACKED_DEEPSLATE_BRICKS:
+  use_template: template_block
+DEEPSLATE_TILES:
+  use_template: template_block
+CRACKED_DEEPSLATE_TILES:
+  use_template: template_block
+CHISELED_DEEPSLATE:
+  use_template: template_block
+REINFORCED_DEEPSLATE:
+  use_template: template_block
+BROWN_MUSHROOM_BLOCK:
+  use_template: template_block
+RED_MUSHROOM_BLOCK:
+  use_template: template_block
+MUSHROOM_STEM:
+  use_template: template_block
+IRON_BARS:
+  use_template: template_2d_item
+CHAIN:
+  use_template: template_2d_item
+GLASS_PANE:
+  use_template: template_2d_item
+MELON:
+  use_template: template_block
+VINE:
+  use_template: template_2d_item
+GLOW_LICHEN:
+  use_template: template_2d_item
+BRICK_STAIRS:
+  use_template: template_block
+STONE_BRICK_STAIRS:
+  use_template: template_block
+MUD_BRICK_STAIRS:
+  use_template: template_block
+MYCELIUM:
+  use_template: template_block
+LILY_PAD:
+  use_template: template_2d_item
+NETHER_BRICKS:
+  use_template: template_block
+CRACKED_NETHER_BRICKS:
+  use_template: template_block
+CHISELED_NETHER_BRICKS:
+  use_template: template_block
+NETHER_BRICK_FENCE:
+  use_template: template_block
+NETHER_BRICK_STAIRS:
+  use_template: template_block
+SCULK:
+  use_template: template_block
+SCULK_VEIN:
+  use_template: template_2d_item
+SCULK_CATALYST:
+  use_template: template_block
+SCULK_SHRIEKER:
+  use_template: template_block
+ENCHANTING_TABLE:
+  use_template: template_block
+END_PORTAL_FRAME:
+  use_template: template_block
+END_STONE:
+  use_template: template_block
+END_STONE_BRICKS:
+  use_template: template_block
+DRAGON_EGG:
+  use_template: template_block
+SANDSTONE_STAIRS:
+  use_template: template_block
+ENDER_CHEST:
+  use_template: template_2d_item
+EMERALD_BLOCK:
+  use_template: template_block
+OAK_STAIRS:
+  use_template: template_block
+SPRUCE_STAIRS:
+  use_template: template_block
+BIRCH_STAIRS:
+  use_template: template_block
+JUNGLE_STAIRS:
+  use_template: template_block
+ACACIA_STAIRS:
+  use_template: template_block
+CHERRY_STAIRS:
+  use_template: template_2d_item
+DARK_OAK_STAIRS:
+  use_template: template_block
+MANGROVE_STAIRS:
+  use_template: template_block
+BAMBOO_STAIRS:
+  use_template: template_block
+BAMBOO_MOSAIC_STAIRS:
+  use_template: template_block
+CRIMSON_STAIRS:
+  use_template: template_block
+WARPED_STAIRS:
+  use_template: template_block
+COMMAND_BLOCK:
+  use_template: template_block
+BEACON:
+  use_template: template_block
+COBBLESTONE_WALL:
+  use_template: template_block
+MOSSY_COBBLESTONE_WALL:
+  use_template: template_block
+BRICK_WALL:
+  use_template: template_block
+PRISMARINE_WALL:
+  use_template: template_block
+RED_SANDSTONE_WALL:
+  use_template: template_block
+MOSSY_STONE_BRICK_WALL:
+  use_template: template_block
+GRANITE_WALL:
+  use_template: template_block
+STONE_BRICK_WALL:
+  use_template: template_block
+MUD_BRICK_WALL:
+  use_template: template_block
+NETHER_BRICK_WALL:
+  use_template: template_block
+ANDESITE_WALL:
+  use_template: template_block
+RED_NETHER_BRICK_WALL:
+  use_template: template_block
+SANDSTONE_WALL:
+  use_template: template_block
+END_STONE_BRICK_WALL:
+  use_template: template_block
+DIORITE_WALL:
+  use_template: template_block
+BLACKSTONE_WALL:
+  use_template: template_block
+POLISHED_BLACKSTONE_WALL:
+  use_template: template_block
+POLISHED_BLACKSTONE_BRICK_WALL:
+  use_template: template_block
+COBBLED_DEEPSLATE_WALL:
+  use_template: template_block
+POLISHED_DEEPSLATE_WALL:
+  use_template: template_block
+DEEPSLATE_BRICK_WALL:
+  use_template: template_block
+DEEPSLATE_TILE_WALL:
+  use_template: template_block
+ANVIL:
+  use_template: template_block
+CHIPPED_ANVIL:
+  use_template: template_block
+DAMAGED_ANVIL:
+  use_template: template_block
+CHISELED_QUARTZ_BLOCK:
+  use_template: template_block
+QUARTZ_BLOCK:
+  use_template: template_block
+QUARTZ_BRICKS:
+  use_template: template_block
+QUARTZ_PILLAR:
+  use_template: template_block
+QUARTZ_STAIRS:
+  use_template: template_block
+WHITE_TERRACOTTA:
+  use_template: template_block
+ORANGE_TERRACOTTA:
+  use_template: template_block
+MAGENTA_TERRACOTTA:
+  use_template: template_block
+LIGHT_BLUE_TERRACOTTA:
+  use_template: template_block
+YELLOW_TERRACOTTA:
+  use_template: template_block
+LIME_TERRACOTTA:
+  use_template: template_block
+PINK_TERRACOTTA:
+  use_template: template_block
+GRAY_TERRACOTTA:
+  use_template: template_block
+LIGHT_GRAY_TERRACOTTA:
+  use_template: template_block
+CYAN_TERRACOTTA:
+  use_template: template_block
+PURPLE_TERRACOTTA:
+  use_template: template_block
+BLUE_TERRACOTTA:
+  use_template: template_block
+BROWN_TERRACOTTA:
+  use_template: template_block
+GREEN_TERRACOTTA:
+  use_template: template_block
+RED_TERRACOTTA:
+  use_template: template_block
+BLACK_TERRACOTTA:
+  use_template: template_block
+BARRIER:
+  use_template: template_2d_item
+LIGHT:
+  use_template: template_2d_item
+HAY_BLOCK:
+  use_template: template_block
+WHITE_CARPET:
+  use_template: template_block
+ORANGE_CARPET:
+  use_template: template_block
+MAGENTA_CARPET:
+  use_template: template_block
+LIGHT_BLUE_CARPET:
+  use_template: template_block
+YELLOW_CARPET:
+  use_template: template_block
+LIME_CARPET:
+  use_template: template_block
+PINK_CARPET:
+  use_template: template_block
+GRAY_CARPET:
+  use_template: template_block
+LIGHT_GRAY_CARPET:
+  use_template: template_block
+CYAN_CARPET:
+  use_template: template_block
+PURPLE_CARPET:
+  use_template: template_block
+BLUE_CARPET:
+  use_template: template_block
+BROWN_CARPET:
+  use_template: template_block
+GREEN_CARPET:
+  use_template: template_block
+RED_CARPET:
+  use_template: template_block
+BLACK_CARPET:
+  use_template: template_block
+TERRACOTTA:
+  use_template: template_block
+PACKED_ICE:
+  use_template: template_block
+DIRT_PATH:
+  use_template: template_block
+SUNFLOWER:
+  use_template: template_2d_item
+LILAC:
+  use_template: template_2d_item
+ROSE_BUSH:
+  use_template: template_2d_item
+PEONY:
+  use_template: template_2d_item
+TALL_GRASS:
+  use_template: template_2d_item
+LARGE_FERN:
+  use_template: template_2d_item
+WHITE_STAINED_GLASS:
+  use_template: template_block
+ORANGE_STAINED_GLASS:
+  use_template: template_block
+MAGENTA_STAINED_GLASS:
+  use_template: template_block
+LIGHT_BLUE_STAINED_GLASS:
+  use_template: template_block
+YELLOW_STAINED_GLASS:
+  use_template: template_block
+LIME_STAINED_GLASS:
+  use_template: template_block
+PINK_STAINED_GLASS:
+  use_template: template_block
+GRAY_STAINED_GLASS:
+  use_template: template_block
+LIGHT_GRAY_STAINED_GLASS:
+  use_template: template_block
+CYAN_STAINED_GLASS:
+  use_template: template_block
+PURPLE_STAINED_GLASS:
+  use_template: template_block
+BLUE_STAINED_GLASS:
+  use_template: template_block
+BROWN_STAINED_GLASS:
+  use_template: template_block
+GREEN_STAINED_GLASS:
+  use_template: template_block
+RED_STAINED_GLASS:
+  use_template: template_block
+BLACK_STAINED_GLASS:
+  use_template: template_block
+WHITE_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+ORANGE_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+MAGENTA_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+LIGHT_BLUE_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+YELLOW_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+LIME_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+PINK_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+GRAY_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+LIGHT_GRAY_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+CYAN_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+PURPLE_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+BLUE_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+BROWN_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+GREEN_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+RED_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+BLACK_STAINED_GLASS_PANE:
+  use_template: template_2d_item
+PRISMARINE:
+  use_template: template_block
+PRISMARINE_BRICKS:
+  use_template: template_block
+DARK_PRISMARINE:
+  use_template: template_block
+PRISMARINE_STAIRS:
+  use_template: template_block
+PRISMARINE_BRICK_STAIRS:
+  use_template: template_block
+DARK_PRISMARINE_STAIRS:
+  use_template: template_block
+SEA_LANTERN:
+  use_template: template_block
+RED_SANDSTONE:
+  use_template: template_block
+CHISELED_RED_SANDSTONE:
+  use_template: template_block
+CUT_RED_SANDSTONE:
+  use_template: template_block
+RED_SANDSTONE_STAIRS:
+  use_template: template_block
+REPEATING_COMMAND_BLOCK:
+  use_template: template_block
+CHAIN_COMMAND_BLOCK:
+  use_template: template_block
+MAGMA_BLOCK:
+  use_template: template_block
+NETHER_WART_BLOCK:
+  use_template: template_block
+WARPED_WART_BLOCK:
+  use_template: template_block
+RED_NETHER_BRICKS:
+  use_template: template_block
+BONE_BLOCK:
+  use_template: template_block
+STRUCTURE_VOID:
+  use_template: template_2d_item
+SHULKER_BOX:
+  use_template: template_2d_item
+WHITE_SHULKER_BOX:
+  use_template: template_2d_item
+ORANGE_SHULKER_BOX:
+  use_template: template_2d_item
+MAGENTA_SHULKER_BOX:
+  use_template: template_2d_item
+LIGHT_BLUE_SHULKER_BOX:
+  use_template: template_2d_item
+YELLOW_SHULKER_BOX:
+  use_template: template_2d_item
+LIME_SHULKER_BOX:
+  use_template: template_2d_item
+PINK_SHULKER_BOX:
+  use_template: template_2d_item
+GRAY_SHULKER_BOX:
+  use_template: template_2d_item
+LIGHT_GRAY_SHULKER_BOX:
+  use_template: template_2d_item
+CYAN_SHULKER_BOX:
+  use_template: template_2d_item
+PURPLE_SHULKER_BOX:
+  use_template: template_2d_item
+BLUE_SHULKER_BOX:
+  use_template: template_2d_item
+BROWN_SHULKER_BOX:
+  use_template: template_2d_item
+GREEN_SHULKER_BOX:
+  use_template: template_2d_item
+RED_SHULKER_BOX:
+  use_template: template_2d_item
+BLACK_SHULKER_BOX:
+  use_template: template_2d_item
+WHITE_GLAZED_TERRACOTTA:
+  use_template: template_block
+ORANGE_GLAZED_TERRACOTTA:
+  use_template: template_block
+MAGENTA_GLAZED_TERRACOTTA:
+  use_template: template_block
+LIGHT_BLUE_GLAZED_TERRACOTTA:
+  use_template: template_block
+YELLOW_GLAZED_TERRACOTTA:
+  use_template: template_block
+LIME_GLAZED_TERRACOTTA:
+  use_template: template_block
+PINK_GLAZED_TERRACOTTA:
+  use_template: template_block
+GRAY_GLAZED_TERRACOTTA:
+  use_template: template_block
+LIGHT_GRAY_GLAZED_TERRACOTTA:
+  use_template: template_block
+CYAN_GLAZED_TERRACOTTA:
+  use_template: template_block
+PURPLE_GLAZED_TERRACOTTA:
+  use_template: template_block
+BLUE_GLAZED_TERRACOTTA:
+  use_template: template_block
+BROWN_GLAZED_TERRACOTTA:
+  use_template: template_block
+GREEN_GLAZED_TERRACOTTA:
+  use_template: template_block
+RED_GLAZED_TERRACOTTA:
+  use_template: template_block
+BLACK_GLAZED_TERRACOTTA:
+  use_template: template_block
+WHITE_CONCRETE:
+  use_template: template_block
+ORANGE_CONCRETE:
+  use_template: template_block
+MAGENTA_CONCRETE:
+  use_template: template_block
+LIGHT_BLUE_CONCRETE:
+  use_template: template_block
+YELLOW_CONCRETE:
+  use_template: template_block
+LIME_CONCRETE:
+  use_template: template_block
+PINK_CONCRETE:
+  use_template: template_block
+GRAY_CONCRETE:
+  use_template: template_block
+LIGHT_GRAY_CONCRETE:
+  use_template: template_block
+CYAN_CONCRETE:
+  use_template: template_block
+PURPLE_CONCRETE:
+  use_template: template_block
+BLUE_CONCRETE:
+  use_template: template_block
+BROWN_CONCRETE:
+  use_template: template_block
+GREEN_CONCRETE:
+  use_template: template_block
+RED_CONCRETE:
+  use_template: template_block
+BLACK_CONCRETE:
+  use_template: template_block
+WHITE_CONCRETE_POWDER:
+  use_template: template_block
+ORANGE_CONCRETE_POWDER:
+  use_template: template_block
+MAGENTA_CONCRETE_POWDER:
+  use_template: template_block
+LIGHT_BLUE_CONCRETE_POWDER:
+  use_template: template_block
+YELLOW_CONCRETE_POWDER:
+  use_template: template_block
+LIME_CONCRETE_POWDER:
+  use_template: template_block
+PINK_CONCRETE_POWDER:
+  use_template: template_block
+GRAY_CONCRETE_POWDER:
+  use_template: template_block
+LIGHT_GRAY_CONCRETE_POWDER:
+  use_template: template_block
+CYAN_CONCRETE_POWDER:
+  use_template: template_block
+PURPLE_CONCRETE_POWDER:
+  use_template: template_block
+BLUE_CONCRETE_POWDER:
+  use_template: template_block
+BROWN_CONCRETE_POWDER:
+  use_template: template_block
+GREEN_CONCRETE_POWDER:
+  use_template: template_block
+RED_CONCRETE_POWDER:
+  use_template: template_block
+BLACK_CONCRETE_POWDER:
+  use_template: template_block
+TURTLE_EGG:
+  use_template: template_2d_item
+DEAD_TUBE_CORAL_BLOCK:
+  use_template: template_block
+DEAD_BRAIN_CORAL_BLOCK:
+  use_template: template_block
+DEAD_BUBBLE_CORAL_BLOCK:
+  use_template: template_block
+DEAD_FIRE_CORAL_BLOCK:
+  use_template: template_block
+DEAD_HORN_CORAL_BLOCK:
+  use_template: template_block
+TUBE_CORAL_BLOCK:
+  use_template: template_block
+BRAIN_CORAL_BLOCK:
+  use_template: template_block
+BUBBLE_CORAL_BLOCK:
+  use_template: template_block
+FIRE_CORAL_BLOCK:
+  use_template: template_block
+HORN_CORAL_BLOCK:
+  use_template: template_block
+TUBE_CORAL:
+  use_template: template_2d_item
+BRAIN_CORAL:
+  use_template: template_2d_item
+BUBBLE_CORAL:
+  use_template: template_2d_item
+FIRE_CORAL:
+  use_template: template_2d_item
+HORN_CORAL:
+  use_template: template_2d_item
+DEAD_BRAIN_CORAL:
+  use_template: template_2d_item
+DEAD_BUBBLE_CORAL:
+  use_template: template_2d_item
+DEAD_FIRE_CORAL:
+  use_template: template_2d_item
+DEAD_HORN_CORAL:
+  use_template: template_2d_item
+DEAD_TUBE_CORAL:
+  use_template: template_2d_item
+TUBE_CORAL_FAN:
+  use_template: template_2d_item
+BRAIN_CORAL_FAN:
+  use_template: template_2d_item
+BUBBLE_CORAL_FAN:
+  use_template: template_2d_item
+FIRE_CORAL_FAN:
+  use_template: template_2d_item
+HORN_CORAL_FAN:
+  use_template: template_2d_item
+DEAD_TUBE_CORAL_FAN:
+  use_template: template_2d_item
+DEAD_BRAIN_CORAL_FAN:
+  use_template: template_2d_item
+DEAD_BUBBLE_CORAL_FAN:
+  use_template: template_2d_item
+DEAD_FIRE_CORAL_FAN:
+  use_template: template_2d_item
+DEAD_HORN_CORAL_FAN:
+  use_template: template_2d_item
+BLUE_ICE:
+  use_template: template_block
+CONDUIT:
+  use_template: template_2d_item
+POLISHED_GRANITE_STAIRS:
+  use_template: template_block
+SMOOTH_RED_SANDSTONE_STAIRS:
+  use_template: template_block
+MOSSY_STONE_BRICK_STAIRS:
+  use_template: template_block
+POLISHED_DIORITE_STAIRS:
+  use_template: template_block
+MOSSY_COBBLESTONE_STAIRS:
+  use_template: template_block
+END_STONE_BRICK_STAIRS:
+  use_template: template_block
+STONE_STAIRS:
+  use_template: template_block
+SMOOTH_SANDSTONE_STAIRS:
+  use_template: template_block
+SMOOTH_QUARTZ_STAIRS:
+  use_template: template_block
+GRANITE_STAIRS:
+  use_template: template_block
+ANDESITE_STAIRS:
+  use_template: template_block
+RED_NETHER_BRICK_STAIRS:
+  use_template: template_block
+POLISHED_ANDESITE_STAIRS:
+  use_template: template_block
+DIORITE_STAIRS:
+  use_template: template_block
+COBBLED_DEEPSLATE_STAIRS:
+  use_template: template_block
+POLISHED_DEEPSLATE_STAIRS:
+  use_template: template_block
+DEEPSLATE_BRICK_STAIRS:
+  use_template: template_block
+DEEPSLATE_TILE_STAIRS:
+  use_template: template_block
+POLISHED_GRANITE_SLAB:
+  use_template: template_block
+SMOOTH_RED_SANDSTONE_SLAB:
+  use_template: template_block
+MOSSY_STONE_BRICK_SLAB:
+  use_template: template_block
+POLISHED_DIORITE_SLAB:
+  use_template: template_block
+MOSSY_COBBLESTONE_SLAB:
+  use_template: template_block
+END_STONE_BRICK_SLAB:
+  use_template: template_block
+SMOOTH_SANDSTONE_SLAB:
+  use_template: template_block
+SMOOTH_QUARTZ_SLAB:
+  use_template: template_block
+GRANITE_SLAB:
+  use_template: template_block
+ANDESITE_SLAB:
+  use_template: template_block
+RED_NETHER_BRICK_SLAB:
+  use_template: template_block
+POLISHED_ANDESITE_SLAB:
+  use_template: template_block
+DIORITE_SLAB:
+  use_template: template_block
+COBBLED_DEEPSLATE_SLAB:
+  use_template: template_block
+POLISHED_DEEPSLATE_SLAB:
+  use_template: template_block
+DEEPSLATE_BRICK_SLAB:
+  use_template: template_block
+DEEPSLATE_TILE_SLAB:
+  use_template: template_block
+SCAFFOLDING:
+  use_template: template_block
+REDSTONE:
+  use_template: template_2d_item
+REDSTONE_TORCH:
+  use_template: template_2d_item
+REDSTONE_BLOCK:
+  use_template: template_block
+REPEATER:
+  use_template: template_2d_item
+COMPARATOR:
+  use_template: template_2d_item
+PISTON:
+  use_template: template_block
+STICKY_PISTON:
+  use_template: template_block
+SLIME_BLOCK:
+  use_template: template_block
+HONEY_BLOCK:
+  use_template: template_block
+OBSERVER:
+  use_template: template_block
+HOPPER:
+  use_template: template_2d_item
+DISPENSER:
+  use_template: template_block
+DROPPER:
+  use_template: template_block
+LECTERN:
+  use_template: template_block
+TARGET:
+  use_template: template_block
+LEVER:
+  use_template: template_2d_item
+LIGHTNING_ROD:
+  use_template: template_block
+DAYLIGHT_DETECTOR:
+  use_template: template_block
+SCULK_SENSOR:
+  use_template: template_block
+TRIPWIRE_HOOK:
+  use_template: template_2d_item
+TRAPPED_CHEST:
+  use_template: template_2d_item
+TNT:
+  use_template: template_block
+REDSTONE_LAMP:
+  use_template: template_block
+NOTE_BLOCK:
+  use_template: template_block
+STONE_BUTTON:
+  use_template: template_block
+POLISHED_BLACKSTONE_BUTTON:
+  use_template: template_block
+OAK_BUTTON:
+  use_template: template_block
+SPRUCE_BUTTON:
+  use_template: template_block
+BIRCH_BUTTON:
+  use_template: template_block
+JUNGLE_BUTTON:
+  use_template: template_block
+ACACIA_BUTTON:
+  use_template: template_block
+CHERRY_BUTTON:
+  use_template: template_2d_item
+DARK_OAK_BUTTON:
+  use_template: template_block
+MANGROVE_BUTTON:
+  use_template: template_block
+BAMBOO_BUTTON:
+  use_template: template_block
+CRIMSON_BUTTON:
+  use_template: template_block
+WARPED_BUTTON:
+  use_template: template_block
+STONE_PRESSURE_PLATE:
+  use_template: template_block
+POLISHED_BLACKSTONE_PRESSURE_PLATE:
+  use_template: template_block
+LIGHT_WEIGHTED_PRESSURE_PLATE:
+  use_template: template_block
+HEAVY_WEIGHTED_PRESSURE_PLATE:
+  use_template: template_block
+OAK_PRESSURE_PLATE:
+  use_template: template_block
+SPRUCE_PRESSURE_PLATE:
+  use_template: template_block
+BIRCH_PRESSURE_PLATE:
+  use_template: template_block
+JUNGLE_PRESSURE_PLATE:
+  use_template: template_block
+ACACIA_PRESSURE_PLATE:
+  use_template: template_block
+CHERRY_PRESSURE_PLATE:
+  use_template: template_2d_item
+DARK_OAK_PRESSURE_PLATE:
+  use_template: template_block
+MANGROVE_PRESSURE_PLATE:
+  use_template: template_block
+BAMBOO_PRESSURE_PLATE:
+  use_template: template_block
+CRIMSON_PRESSURE_PLATE:
+  use_template: template_block
+WARPED_PRESSURE_PLATE:
+  use_template: template_block
+IRON_DOOR:
+  use_template: template_2d_item
+OAK_DOOR:
+  use_template: template_2d_item
+SPRUCE_DOOR:
+  use_template: template_2d_item
+BIRCH_DOOR:
+  use_template: template_2d_item
+JUNGLE_DOOR:
+  use_template: template_2d_item
+ACACIA_DOOR:
+  use_template: template_2d_item
+CHERRY_DOOR:
+  use_template: template_2d_item
+DARK_OAK_DOOR:
+  use_template: template_2d_item
+MANGROVE_DOOR:
+  use_template: template_2d_item
+BAMBOO_DOOR:
+  use_template: template_2d_item
+CRIMSON_DOOR:
+  use_template: template_2d_item
+WARPED_DOOR:
+  use_template: template_2d_item
+IRON_TRAPDOOR:
+  use_template: template_block
+OAK_TRAPDOOR:
+  use_template: template_block
+SPRUCE_TRAPDOOR:
+  use_template: template_block
+BIRCH_TRAPDOOR:
+  use_template: template_block
+JUNGLE_TRAPDOOR:
+  use_template: template_block
+ACACIA_TRAPDOOR:
+  use_template: template_block
+CHERRY_TRAPDOOR:
+  use_template: template_2d_item
+DARK_OAK_TRAPDOOR:
+  use_template: template_block
+MANGROVE_TRAPDOOR:
+  use_template: template_block
+BAMBOO_TRAPDOOR:
+  use_template: template_block
+CRIMSON_TRAPDOOR:
+  use_template: template_block
+WARPED_TRAPDOOR:
+  use_template: template_block
+OAK_FENCE_GATE:
+  use_template: template_block
+SPRUCE_FENCE_GATE:
+  use_template: template_block
+BIRCH_FENCE_GATE:
+  use_template: template_block
+JUNGLE_FENCE_GATE:
+  use_template: template_block
+ACACIA_FENCE_GATE:
+  use_template: template_block
+CHERRY_FENCE_GATE:
+  use_template: template_2d_item
+DARK_OAK_FENCE_GATE:
+  use_template: template_block
+MANGROVE_FENCE_GATE:
+  use_template: template_block
+BAMBOO_FENCE_GATE:
+  use_template: template_block
+CRIMSON_FENCE_GATE:
+  use_template: template_block
+WARPED_FENCE_GATE:
+  use_template: template_block
+POWERED_RAIL:
+  use_template: template_2d_item
+DETECTOR_RAIL:
+  use_template: template_2d_item
+RAIL:
+  use_template: template_2d_item
+ACTIVATOR_RAIL:
+  use_template: template_2d_item
+SADDLE:
+  use_template: template_2d_item
+MINECART:
+  use_template: template_2d_item
+CHEST_MINECART:
+  use_template: template_2d_item
+FURNACE_MINECART:
+  use_template: template_2d_item
+TNT_MINECART:
+  use_template: template_2d_item
+HOPPER_MINECART:
+  use_template: template_2d_item
+CARROT_ON_A_STICK:
+  use_template: template_2d_item
+WARPED_FUNGUS_ON_A_STICK:
+  use_template: template_2d_item
+ELYTRA:
+  use_template: template_2d_item
+OAK_BOAT:
+  use_template: template_2d_item
+OAK_CHEST_BOAT:
+  use_template: template_2d_item
+SPRUCE_BOAT:
+  use_template: template_2d_item
+SPRUCE_CHEST_BOAT:
+  use_template: template_2d_item
+BIRCH_BOAT:
+  use_template: template_2d_item
+BIRCH_CHEST_BOAT:
+  use_template: template_2d_item
+JUNGLE_BOAT:
+  use_template: template_2d_item
+JUNGLE_CHEST_BOAT:
+  use_template: template_2d_item
+ACACIA_BOAT:
+  use_template: template_2d_item
+ACACIA_CHEST_BOAT:
+  use_template: template_2d_item
+CHERRY_BOAT:
+  use_template: template_2d_item
+CHERRY_CHEST_BOAT:
+  use_template: template_2d_item
+DARK_OAK_BOAT:
+  use_template: template_2d_item
+DARK_OAK_CHEST_BOAT:
+  use_template: template_2d_item
+MANGROVE_BOAT:
+  use_template: template_2d_item
+MANGROVE_CHEST_BOAT:
+  use_template: template_2d_item
+BAMBOO_RAFT:
+  use_template: template_2d_item
+BAMBOO_CHEST_RAFT:
+  use_template: template_2d_item
+STRUCTURE_BLOCK:
+  use_template: template_block
+JIGSAW:
+  use_template: template_block
+TURTLE_HELMET:
+  use_template: template_2d_item
+SCUTE:
+  use_template: template_2d_item
+FLINT_AND_STEEL:
+  use_template: template_2d_item
+APPLE:
+  use_template: template_2d_item
+BOW:
+  use_template: template_2d_item
+ARROW:
+  use_template: template_2d_item
+COAL:
+  use_template: template_2d_item
+CHARCOAL:
+  use_template: template_2d_item
+DIAMOND:
+  use_template: template_2d_item
+EMERALD:
+  use_template: template_2d_item
+LAPIS_LAZULI:
+  use_template: template_2d_item
+QUARTZ:
+  use_template: template_2d_item
+AMETHYST_SHARD:
+  use_template: template_2d_item
+RAW_IRON:
+  use_template: template_2d_item
+IRON_INGOT:
+  use_template: template_2d_item
+RAW_COPPER:
+  use_template: template_2d_item
+COPPER_INGOT:
+  use_template: template_2d_item
+RAW_GOLD:
+  use_template: template_2d_item
+GOLD_INGOT:
+  use_template: template_2d_item
+NETHERITE_INGOT:
+  use_template: template_2d_item
+NETHERITE_SCRAP:
+  use_template: template_2d_item
+WOODEN_SWORD:
+  use_template: template_2d_item
+WOODEN_SHOVEL:
+  use_template: template_2d_item
+WOODEN_PICKAXE:
+  use_template: template_2d_item
+WOODEN_AXE:
+  use_template: template_2d_item
+WOODEN_HOE:
+  use_template: template_2d_item
+STONE_SWORD:
+  use_template: template_2d_item
+STONE_SHOVEL:
+  use_template: template_2d_item
+STONE_PICKAXE:
+  use_template: template_2d_item
+STONE_AXE:
+  use_template: template_2d_item
+STONE_HOE:
+  use_template: template_2d_item
+GOLDEN_SWORD:
+  use_template: template_2d_item
+GOLDEN_SHOVEL:
+  use_template: template_2d_item
+GOLDEN_PICKAXE:
+  use_template: template_2d_item
+GOLDEN_AXE:
+  use_template: template_2d_item
+GOLDEN_HOE:
+  use_template: template_2d_item
+IRON_SWORD:
+  use_template: template_2d_item
+IRON_SHOVEL:
+  use_template: template_2d_item
+IRON_PICKAXE:
+  use_template: template_2d_item
+IRON_AXE:
+  use_template: template_2d_item
+IRON_HOE:
+  use_template: template_2d_item
+DIAMOND_SWORD:
+  use_template: template_2d_item
+DIAMOND_SHOVEL:
+  use_template: template_2d_item
+DIAMOND_PICKAXE:
+  use_template: template_2d_item
+DIAMOND_AXE:
+  use_template: template_2d_item
+DIAMOND_HOE:
+  use_template: template_2d_item
+NETHERITE_SWORD:
+  use_template: template_2d_item
+NETHERITE_SHOVEL:
+  use_template: template_2d_item
+NETHERITE_PICKAXE:
+  use_template: template_2d_item
+NETHERITE_AXE:
+  use_template: template_2d_item
+NETHERITE_HOE:
+  use_template: template_2d_item
+STICK:
+  use_template: template_2d_item
+BOWL:
+  use_template: template_2d_item
+MUSHROOM_STEW:
+  use_template: template_2d_item
+STRING:
+  use_template: template_2d_item
+FEATHER:
+  use_template: template_2d_item
+GUNPOWDER:
+  use_template: template_2d_item
+WHEAT_SEEDS:
+  use_template: template_2d_item
+WHEAT:
+  use_template: template_2d_item
+BREAD:
+  use_template: template_2d_item
+LEATHER_HELMET:
+  use_template: template_2d_item
+LEATHER_CHESTPLATE:
+  use_template: template_2d_item
+LEATHER_LEGGINGS:
+  use_template: template_2d_item
+LEATHER_BOOTS:
+  use_template: template_2d_item
+CHAINMAIL_HELMET:
+  use_template: template_2d_item
+CHAINMAIL_CHESTPLATE:
+  use_template: template_2d_item
+CHAINMAIL_LEGGINGS:
+  use_template: template_2d_item
+CHAINMAIL_BOOTS:
+  use_template: template_2d_item
+IRON_HELMET:
+  use_template: template_2d_item
+IRON_CHESTPLATE:
+  use_template: template_2d_item
+IRON_LEGGINGS:
+  use_template: template_2d_item
+IRON_BOOTS:
+  use_template: template_2d_item
+DIAMOND_HELMET:
+  use_template: template_2d_item
+DIAMOND_CHESTPLATE:
+  use_template: template_2d_item
+DIAMOND_LEGGINGS:
+  use_template: template_2d_item
+DIAMOND_BOOTS:
+  use_template: template_2d_item
+GOLDEN_HELMET:
+  use_template: template_2d_item
+GOLDEN_CHESTPLATE:
+  use_template: template_2d_item
+GOLDEN_LEGGINGS:
+  use_template: template_2d_item
+GOLDEN_BOOTS:
+  use_template: template_2d_item
+NETHERITE_HELMET:
+  use_template: template_2d_item
+NETHERITE_CHESTPLATE:
+  use_template: template_2d_item
+NETHERITE_LEGGINGS:
+  use_template: template_2d_item
+NETHERITE_BOOTS:
+  use_template: template_2d_item
+FLINT:
+  use_template: template_2d_item
+PORKCHOP:
+  use_template: template_2d_item
+COOKED_PORKCHOP:
+  use_template: template_2d_item
+PAINTING:
+  use_template: template_2d_item
+GOLDEN_APPLE:
+  use_template: template_2d_item
+ENCHANTED_GOLDEN_APPLE:
+  use_template: template_2d_item
+OAK_SIGN:
+  use_template: template_2d_item
+SPRUCE_SIGN:
+  use_template: template_2d_item
+BIRCH_SIGN:
+  use_template: template_2d_item
+JUNGLE_SIGN:
+  use_template: template_2d_item
+ACACIA_SIGN:
+  use_template: template_2d_item
+CHERRY_SIGN:
+  use_template: template_2d_item
+DARK_OAK_SIGN:
+  use_template: template_2d_item
+MANGROVE_SIGN:
+  use_template: template_2d_item
+BAMBOO_SIGN:
+  use_template: template_2d_item
+CRIMSON_SIGN:
+  use_template: template_2d_item
+WARPED_SIGN:
+  use_template: template_2d_item
+OAK_HANGING_SIGN:
+  use_template: template_2d_item
+SPRUCE_HANGING_SIGN:
+  use_template: template_2d_item
+BIRCH_HANGING_SIGN:
+  use_template: template_2d_item
+JUNGLE_HANGING_SIGN:
+  use_template: template_2d_item
+ACACIA_HANGING_SIGN:
+  use_template: template_2d_item
+CHERRY_HANGING_SIGN:
+  use_template: template_2d_item
+DARK_OAK_HANGING_SIGN:
+  use_template: template_2d_item
+MANGROVE_HANGING_SIGN:
+  use_template: template_2d_item
+BAMBOO_HANGING_SIGN:
+  use_template: template_2d_item
+CRIMSON_HANGING_SIGN:
+  use_template: template_2d_item
+WARPED_HANGING_SIGN:
+  use_template: template_2d_item
+BUCKET:
+  use_template: template_2d_item
+WATER_BUCKET:
+  use_template: template_2d_item
+LAVA_BUCKET:
+  use_template: template_2d_item
+POWDER_SNOW_BUCKET:
+  use_template: template_2d_item
+SNOWBALL:
+  use_template: template_2d_item
+LEATHER:
+  use_template: template_2d_item
+MILK_BUCKET:
+  use_template: template_2d_item
+PUFFERFISH_BUCKET:
+  use_template: template_2d_item
+SALMON_BUCKET:
+  use_template: template_2d_item
+COD_BUCKET:
+  use_template: template_2d_item
+TROPICAL_FISH_BUCKET:
+  use_template: template_2d_item
+AXOLOTL_BUCKET:
+  use_template: template_2d_item
+TADPOLE_BUCKET:
+  use_template: template_2d_item
+BRICK:
+  use_template: template_2d_item
+CLAY_BALL:
+  use_template: template_2d_item
+DRIED_KELP_BLOCK:
+  use_template: template_block
+PAPER:
+  use_template: template_2d_item
+BOOK:
+  use_template: template_2d_item
+SLIME_BALL:
+  use_template: template_2d_item
+EGG:
+  use_template: template_2d_item
+COMPASS:
+  use_template: template_2d_item
+RECOVERY_COMPASS:
+  use_template: template_2d_item
+BUNDLE:
+  use_template: template_2d_item
+FISHING_ROD:
+  use_template: template_2d_item
+CLOCK:
+  use_template: template_2d_item
+SPYGLASS:
+  use_template: template_2d_item
+GLOWSTONE_DUST:
+  use_template: template_2d_item
+COD:
+  use_template: template_2d_item
+SALMON:
+  use_template: template_2d_item
+TROPICAL_FISH:
+  use_template: template_2d_item
+PUFFERFISH:
+  use_template: template_2d_item
+COOKED_COD:
+  use_template: template_2d_item
+COOKED_SALMON:
+  use_template: template_2d_item
+INK_SAC:
+  use_template: template_2d_item
+GLOW_INK_SAC:
+  use_template: template_2d_item
+COCOA_BEANS:
+  use_template: template_2d_item
+WHITE_DYE:
+  use_template: template_2d_item
+ORANGE_DYE:
+  use_template: template_2d_item
+MAGENTA_DYE:
+  use_template: template_2d_item
+LIGHT_BLUE_DYE:
+  use_template: template_2d_item
+YELLOW_DYE:
+  use_template: template_2d_item
+LIME_DYE:
+  use_template: template_2d_item
+PINK_DYE:
+  use_template: template_2d_item
+GRAY_DYE:
+  use_template: template_2d_item
+LIGHT_GRAY_DYE:
+  use_template: template_2d_item
+CYAN_DYE:
+  use_template: template_2d_item
+PURPLE_DYE:
+  use_template: template_2d_item
+BLUE_DYE:
+  use_template: template_2d_item
+BROWN_DYE:
+  use_template: template_2d_item
+GREEN_DYE:
+  use_template: template_2d_item
+RED_DYE:
+  use_template: template_2d_item
+BLACK_DYE:
+  use_template: template_2d_item
+BONE_MEAL:
+  use_template: template_2d_item
+BONE:
+  use_template: template_2d_item
+SUGAR:
+  use_template: template_2d_item
+CAKE:
+  use_template: template_2d_item
+WHITE_BED:
+  use_template: template_2d_item
+ORANGE_BED:
+  use_template: template_2d_item
+MAGENTA_BED:
+  use_template: template_2d_item
+LIGHT_BLUE_BED:
+  use_template: template_2d_item
+YELLOW_BED:
+  use_template: template_2d_item
+LIME_BED:
+  use_template: template_2d_item
+PINK_BED:
+  use_template: template_2d_item
+GRAY_BED:
+  use_template: template_2d_item
+LIGHT_GRAY_BED:
+  use_template: template_2d_item
+CYAN_BED:
+  use_template: template_2d_item
+PURPLE_BED:
+  use_template: template_2d_item
+BLUE_BED:
+  use_template: template_2d_item
+BROWN_BED:
+  use_template: template_2d_item
+GREEN_BED:
+  use_template: template_2d_item
+RED_BED:
+  use_template: template_2d_item
+BLACK_BED:
+  use_template: template_2d_item
+COOKIE:
+  use_template: template_2d_item
+FILLED_MAP:
+  use_template: template_2d_item
+SHEARS:
+  use_template: template_2d_item
+MELON_SLICE:
+  use_template: template_2d_item
+DRIED_KELP:
+  use_template: template_2d_item
+PUMPKIN_SEEDS:
+  use_template: template_2d_item
+MELON_SEEDS:
+  use_template: template_2d_item
+BEEF:
+  use_template: template_2d_item
+COOKED_BEEF:
+  use_template: template_2d_item
+CHICKEN:
+  use_template: template_2d_item
+COOKED_CHICKEN:
+  use_template: template_2d_item
+ROTTEN_FLESH:
+  use_template: template_2d_item
+ENDER_PEARL:
+  use_template: template_2d_item
+BLAZE_ROD:
+  use_template: template_2d_item
+GHAST_TEAR:
+  use_template: template_2d_item
+GOLD_NUGGET:
+  use_template: template_2d_item
+NETHER_WART:
+  use_template: template_2d_item
+POTION:
+  use_template: template_2d_item
+GLASS_BOTTLE:
+  use_template: template_2d_item
+SPIDER_EYE:
+  use_template: template_2d_item
+FERMENTED_SPIDER_EYE:
+  use_template: template_2d_item
+BLAZE_POWDER:
+  use_template: template_2d_item
+MAGMA_CREAM:
+  use_template: template_2d_item
+BREWING_STAND:
+  use_template: template_2d_item
+CAULDRON:
+  use_template: template_2d_item
+ENDER_EYE:
+  use_template: template_2d_item
+GLISTERING_MELON_SLICE:
+  use_template: template_2d_item
+ALLAY_SPAWN_EGG:
+  use_template: template_2d_item
+AXOLOTL_SPAWN_EGG:
+  use_template: template_2d_item
+BAT_SPAWN_EGG:
+  use_template: template_2d_item
+BEE_SPAWN_EGG:
+  use_template: template_2d_item
+BLAZE_SPAWN_EGG:
+  use_template: template_2d_item
+CAT_SPAWN_EGG:
+  use_template: template_2d_item
+CAMEL_SPAWN_EGG:
+  use_template: template_2d_item
+CAVE_SPIDER_SPAWN_EGG:
+  use_template: template_2d_item
+CHICKEN_SPAWN_EGG:
+  use_template: template_2d_item
+COD_SPAWN_EGG:
+  use_template: template_2d_item
+COW_SPAWN_EGG:
+  use_template: template_2d_item
+CREEPER_SPAWN_EGG:
+  use_template: template_2d_item
+DOLPHIN_SPAWN_EGG:
+  use_template: template_2d_item
+DONKEY_SPAWN_EGG:
+  use_template: template_2d_item
+DROWNED_SPAWN_EGG:
+  use_template: template_2d_item
+ELDER_GUARDIAN_SPAWN_EGG:
+  use_template: template_2d_item
+ENDER_DRAGON_SPAWN_EGG:
+  use_template: template_2d_item
+ENDERMAN_SPAWN_EGG:
+  use_template: template_2d_item
+ENDERMITE_SPAWN_EGG:
+  use_template: template_2d_item
+EVOKER_SPAWN_EGG:
+  use_template: template_2d_item
+FOX_SPAWN_EGG:
+  use_template: template_2d_item
+FROG_SPAWN_EGG:
+  use_template: template_2d_item
+GHAST_SPAWN_EGG:
+  use_template: template_2d_item
+GLOW_SQUID_SPAWN_EGG:
+  use_template: template_2d_item
+GOAT_SPAWN_EGG:
+  use_template: template_2d_item
+GUARDIAN_SPAWN_EGG:
+  use_template: template_2d_item
+HOGLIN_SPAWN_EGG:
+  use_template: template_2d_item
+HORSE_SPAWN_EGG:
+  use_template: template_2d_item
+HUSK_SPAWN_EGG:
+  use_template: template_2d_item
+IRON_GOLEM_SPAWN_EGG:
+  use_template: template_2d_item
+LLAMA_SPAWN_EGG:
+  use_template: template_2d_item
+MAGMA_CUBE_SPAWN_EGG:
+  use_template: template_2d_item
+MOOSHROOM_SPAWN_EGG:
+  use_template: template_2d_item
+MULE_SPAWN_EGG:
+  use_template: template_2d_item
+OCELOT_SPAWN_EGG:
+  use_template: template_2d_item
+PANDA_SPAWN_EGG:
+  use_template: template_2d_item
+PARROT_SPAWN_EGG:
+  use_template: template_2d_item
+PHANTOM_SPAWN_EGG:
+  use_template: template_2d_item
+PIG_SPAWN_EGG:
+  use_template: template_2d_item
+PIGLIN_SPAWN_EGG:
+  use_template: template_2d_item
+PIGLIN_BRUTE_SPAWN_EGG:
+  use_template: template_2d_item
+PILLAGER_SPAWN_EGG:
+  use_template: template_2d_item
+POLAR_BEAR_SPAWN_EGG:
+  use_template: template_2d_item
+PUFFERFISH_SPAWN_EGG:
+  use_template: template_2d_item
+RABBIT_SPAWN_EGG:
+  use_template: template_2d_item
+RAVAGER_SPAWN_EGG:
+  use_template: template_2d_item
+SALMON_SPAWN_EGG:
+  use_template: template_2d_item
+SHEEP_SPAWN_EGG:
+  use_template: template_2d_item
+SHULKER_SPAWN_EGG:
+  use_template: template_2d_item
+SILVERFISH_SPAWN_EGG:
+  use_template: template_2d_item
+SKELETON_SPAWN_EGG:
+  use_template: template_2d_item
+SKELETON_HORSE_SPAWN_EGG:
+  use_template: template_2d_item
+SLIME_SPAWN_EGG:
+  use_template: template_2d_item
+SNIFFER_SPAWN_EGG:
+  use_template: template_2d_item
+SNOW_GOLEM_SPAWN_EGG:
+  use_template: template_2d_item
+SPIDER_SPAWN_EGG:
+  use_template: template_2d_item
+SQUID_SPAWN_EGG:
+  use_template: template_2d_item
+STRAY_SPAWN_EGG:
+  use_template: template_2d_item
+STRIDER_SPAWN_EGG:
+  use_template: template_2d_item
+TADPOLE_SPAWN_EGG:
+  use_template: template_2d_item
+TRADER_LLAMA_SPAWN_EGG:
+  use_template: template_2d_item
+TROPICAL_FISH_SPAWN_EGG:
+  use_template: template_2d_item
+TURTLE_SPAWN_EGG:
+  use_template: template_2d_item
+VEX_SPAWN_EGG:
+  use_template: template_2d_item
+VILLAGER_SPAWN_EGG:
+  use_template: template_2d_item
+VINDICATOR_SPAWN_EGG:
+  use_template: template_2d_item
+WANDERING_TRADER_SPAWN_EGG:
+  use_template: template_2d_item
+WARDEN_SPAWN_EGG:
+  use_template: template_2d_item
+WITCH_SPAWN_EGG:
+  use_template: template_2d_item
+WITHER_SPAWN_EGG:
+  use_template: template_2d_item
+WITHER_SKELETON_SPAWN_EGG:
+  use_template: template_2d_item
+WOLF_SPAWN_EGG:
+  use_template: template_2d_item
+ZOGLIN_SPAWN_EGG:
+  use_template: template_2d_item
+ZOMBIE_SPAWN_EGG:
+  use_template: template_2d_item
+ZOMBIE_HORSE_SPAWN_EGG:
+  use_template: template_2d_item
+ZOMBIE_VILLAGER_SPAWN_EGG:
+  use_template: template_2d_item
+ZOMBIFIED_PIGLIN_SPAWN_EGG:
+  use_template: template_2d_item
+EXPERIENCE_BOTTLE:
+  use_template: template_2d_item
+FIRE_CHARGE:
+  use_template: template_2d_item
+WRITABLE_BOOK:
+  use_template: template_2d_item
+WRITTEN_BOOK:
+  use_template: template_2d_item
+ITEM_FRAME:
+  use_template: template_2d_item
+GLOW_ITEM_FRAME:
+  use_template: template_2d_item
+FLOWER_POT:
+  use_template: template_2d_item
+CARROT:
+  use_template: template_2d_item
+POTATO:
+  use_template: template_2d_item
+BAKED_POTATO:
+  use_template: template_2d_item
+POISONOUS_POTATO:
+  use_template: template_2d_item
+MAP:
+  use_template: template_2d_item
+GOLDEN_CARROT:
+  use_template: template_2d_item
+SKELETON_SKULL:
+  use_template: template_2d_item
+WITHER_SKELETON_SKULL:
+  use_template: template_2d_item
+PLAYER_HEAD:
+  use_template: template_block
+ZOMBIE_HEAD:
+  use_template: template_block
+CREEPER_HEAD:
+  use_template: template_block
+DRAGON_HEAD:
+  use_template: template_block
+PIGLIN_HEAD:
+  use_template: template_block
+NETHER_STAR:
+  use_template: template_2d_item
+PUMPKIN_PIE:
+  use_template: template_2d_item
+FIREWORK_ROCKET:
+  use_template: template_2d_item
+FIREWORK_STAR:
+  use_template: template_2d_item
+ENCHANTED_BOOK:
+  use_template: template_2d_item
+NETHER_BRICK:
+  use_template: template_2d_item
+PRISMARINE_SHARD:
+  use_template: template_2d_item
+PRISMARINE_CRYSTALS:
+  use_template: template_2d_item
+RABBIT:
+  use_template: template_2d_item
+COOKED_RABBIT:
+  use_template: template_2d_item
+RABBIT_STEW:
+  use_template: template_2d_item
+RABBIT_FOOT:
+  use_template: template_2d_item
+RABBIT_HIDE:
+  use_template: template_2d_item
+ARMOR_STAND:
+  use_template: template_2d_item
+IRON_HORSE_ARMOR:
+  use_template: template_2d_item
+GOLDEN_HORSE_ARMOR:
+  use_template: template_2d_item
+DIAMOND_HORSE_ARMOR:
+  use_template: template_2d_item
+LEATHER_HORSE_ARMOR:
+  use_template: template_2d_item
+LEAD:
+  use_template: template_2d_item
+NAME_TAG:
+  use_template: template_2d_item
+COMMAND_BLOCK_MINECART:
+  use_template: template_2d_item
+MUTTON:
+  use_template: template_2d_item
+COOKED_MUTTON:
+  use_template: template_2d_item
+WHITE_BANNER:
+  use_template: template_2d_item
+ORANGE_BANNER:
+  use_template: template_2d_item
+MAGENTA_BANNER:
+  use_template: template_2d_item
+LIGHT_BLUE_BANNER:
+  use_template: template_2d_item
+YELLOW_BANNER:
+  use_template: template_2d_item
+LIME_BANNER:
+  use_template: template_2d_item
+PINK_BANNER:
+  use_template: template_2d_item
+GRAY_BANNER:
+  use_template: template_2d_item
+LIGHT_GRAY_BANNER:
+  use_template: template_2d_item
+CYAN_BANNER:
+  use_template: template_2d_item
+PURPLE_BANNER:
+  use_template: template_2d_item
+BLUE_BANNER:
+  use_template: template_2d_item
+BROWN_BANNER:
+  use_template: template_2d_item
+GREEN_BANNER:
+  use_template: template_2d_item
+RED_BANNER:
+  use_template: template_2d_item
+BLACK_BANNER:
+  use_template: template_2d_item
+END_CRYSTAL:
+  use_template: template_2d_item
+CHORUS_FRUIT:
+  use_template: template_2d_item
+POPPED_CHORUS_FRUIT:
+  use_template: template_2d_item
+TORCHFLOWER_SEEDS:
+  use_template: template_2d_item
+BEETROOT:
+  use_template: template_2d_item
+BEETROOT_SEEDS:
+  use_template: template_2d_item
+BEETROOT_SOUP:
+  use_template: template_2d_item
+DRAGON_BREATH:
+  use_template: template_2d_item
+SPLASH_POTION:
+  use_template: template_2d_item
+SPECTRAL_ARROW:
+  use_template: template_2d_item
+TIPPED_ARROW:
+  use_template: template_2d_item
+LINGERING_POTION:
+  use_template: template_2d_item
+SHIELD:
+  use_template: template_2d_item
+TOTEM_OF_UNDYING:
+  use_template: template_2d_item
+SHULKER_SHELL:
+  use_template: template_2d_item
+IRON_NUGGET:
+  use_template: template_2d_item
+KNOWLEDGE_BOOK:
+  use_template: template_2d_item
+DEBUG_STICK:
+  use_template: template_2d_item
+MUSIC_DISC_13:
+  use_template: template_2d_item
+MUSIC_DISC_CAT:
+  use_template: template_2d_item
+MUSIC_DISC_BLOCKS:
+  use_template: template_2d_item
+MUSIC_DISC_CHIRP:
+  use_template: template_2d_item
+MUSIC_DISC_FAR:
+  use_template: template_2d_item
+MUSIC_DISC_MALL:
+  use_template: template_2d_item
+MUSIC_DISC_MELLOHI:
+  use_template: template_2d_item
+MUSIC_DISC_STAL:
+  use_template: template_2d_item
+MUSIC_DISC_STRAD:
+  use_template: template_2d_item
+MUSIC_DISC_WARD:
+  use_template: template_2d_item
+MUSIC_DISC_11:
+  use_template: template_2d_item
+MUSIC_DISC_WAIT:
+  use_template: template_2d_item
+MUSIC_DISC_OTHERSIDE:
+  use_template: template_2d_item
+MUSIC_DISC_5:
+  use_template: template_2d_item
+MUSIC_DISC_PIGSTEP:
+  use_template: template_2d_item
+DISC_FRAGMENT_5:
+  use_template: template_2d_item
+TRIDENT:
+  use_template: template_2d_item
+PHANTOM_MEMBRANE:
+  use_template: template_2d_item
+NAUTILUS_SHELL:
+  use_template: template_2d_item
+HEART_OF_THE_SEA:
+  use_template: template_2d_item
+CROSSBOW:
+  use_template: template_2d_item
+SUSPICIOUS_STEW:
+  use_template: template_2d_item
+LOOM:
+  use_template: template_block
+FLOWER_BANNER_PATTERN:
+  use_template: template_2d_item
+CREEPER_BANNER_PATTERN:
+  use_template: template_2d_item
+SKULL_BANNER_PATTERN:
+  use_template: template_2d_item
+MOJANG_BANNER_PATTERN:
+  use_template: template_2d_item
+GLOBE_BANNER_PATTERN:
+  use_template: template_2d_item
+PIGLIN_BANNER_PATTERN:
+  use_template: template_2d_item
+GOAT_HORN:
+  use_template: template_2d_item
+COMPOSTER:
+  use_template: template_block
+BARREL:
+  use_template: template_block
+SMOKER:
+  use_template: template_block
+BLAST_FURNACE:
+  use_template: template_block
+CARTOGRAPHY_TABLE:
+  use_template: template_block
+FLETCHING_TABLE:
+  use_template: template_block
+GRINDSTONE:
+  use_template: template_block
+SMITHING_TABLE:
+  use_template: template_block
+STONECUTTER:
+  use_template: template_block
+BELL:
+  use_template: template_2d_item
+LANTERN:
+  use_template: template_2d_item
+SOUL_LANTERN:
+  use_template: template_2d_item
+SWEET_BERRIES:
+  use_template: template_2d_item
+GLOW_BERRIES:
+  use_template: template_2d_item
+CAMPFIRE:
+  use_template: template_2d_item
+SOUL_CAMPFIRE:
+  use_template: template_2d_item
+SHROOMLIGHT:
+  use_template: template_block
+HONEYCOMB:
+  use_template: template_2d_item
+BEE_NEST:
+  use_template: template_block
+BEEHIVE:
+  use_template: template_block
+HONEY_BOTTLE:
+  use_template: template_2d_item
+HONEYCOMB_BLOCK:
+  use_template: template_block
+LODESTONE:
+  use_template: template_block
+CRYING_OBSIDIAN:
+  use_template: template_block
+BLACKSTONE:
+  use_template: template_block
+BLACKSTONE_SLAB:
+  use_template: template_block
+BLACKSTONE_STAIRS:
+  use_template: template_block
+GILDED_BLACKSTONE:
+  use_template: template_block
+POLISHED_BLACKSTONE:
+  use_template: template_block
+POLISHED_BLACKSTONE_SLAB:
+  use_template: template_block
+POLISHED_BLACKSTONE_STAIRS:
+  use_template: template_block
+CHISELED_POLISHED_BLACKSTONE:
+  use_template: template_block
+POLISHED_BLACKSTONE_BRICKS:
+  use_template: template_block
+POLISHED_BLACKSTONE_BRICK_SLAB:
+  use_template: template_block
+POLISHED_BLACKSTONE_BRICK_STAIRS:
+  use_template: template_block
+CRACKED_POLISHED_BLACKSTONE_BRICKS:
+  use_template: template_block
+RESPAWN_ANCHOR:
+  use_template: template_block
+CANDLE:
+  use_template: template_2d_item
+WHITE_CANDLE:
+  use_template: template_2d_item
+ORANGE_CANDLE:
+  use_template: template_2d_item
+MAGENTA_CANDLE:
+  use_template: template_2d_item
+LIGHT_BLUE_CANDLE:
+  use_template: template_2d_item
+YELLOW_CANDLE:
+  use_template: template_2d_item
+LIME_CANDLE:
+  use_template: template_2d_item
+PINK_CANDLE:
+  use_template: template_2d_item
+GRAY_CANDLE:
+  use_template: template_2d_item
+LIGHT_GRAY_CANDLE:
+  use_template: template_2d_item
+CYAN_CANDLE:
+  use_template: template_2d_item
+PURPLE_CANDLE:
+  use_template: template_2d_item
+BLUE_CANDLE:
+  use_template: template_2d_item
+BROWN_CANDLE:
+  use_template: template_2d_item
+GREEN_CANDLE:
+  use_template: template_2d_item
+RED_CANDLE:
+  use_template: template_2d_item
+BLACK_CANDLE:
+  use_template: template_2d_item
+SMALL_AMETHYST_BUD:
+  use_template: template_2d_item
+MEDIUM_AMETHYST_BUD:
+  use_template: template_2d_item
+LARGE_AMETHYST_BUD:
+  use_template: template_2d_item
+AMETHYST_CLUSTER:
+  use_template: template_2d_item
+POINTED_DRIPSTONE:
+  use_template: template_2d_item
+OCHRE_FROGLIGHT:
+  use_template: template_block
+VERDANT_FROGLIGHT:
+  use_template: template_block
+PEARLESCENT_FROGLIGHT:
+  use_template: template_block
+FROGSPAWN:
+  use_template: template_2d_item
+ECHO_SHARD:
+  use_template: template_2d_item
+BRUSH:
+  use_template: template_2d_item
+NETHERITE_UPGRADE_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+SENTRY_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+DUNE_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+COAST_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+WILD_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+WARD_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+EYE_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+VEX_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+TIDE_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+RIB_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE:
+  use_template: template_2d_item
+POTTERY_SHARD_ARCHER:
+  use_template: template_2d_item
+POTTERY_SHARD_PRIZE:
+  use_template: template_2d_item
+POTTERY_SHARD_ARMS_UP:
+  use_template: template_2d_item
+POTTERY_SHARD_SKULL:
+  use_template: template_2d_item

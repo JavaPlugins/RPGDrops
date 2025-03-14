@@ -1,0 +1,38 @@
+physics:
+  physics_tickrate: 1
+  pickup_on_interact: false
+graphics:
+  face_player_on_drop: true
+  pickup_animation: true
+  increase_size_based_on_amount: false
+  play_place_sound_on_hit_ground:
+    enabled: true
+    volume: 0.2
+    pitch: 1
+    range_blocks: 10
+  nameplate:
+    enabled: true
+    show_only_on_hover: false
+    name:
+      enabled: true
+      color: "#ffffff"
+    amount:
+      enabled: true
+      color: "#878787"
+  shadow:
+    enabled: true
+    radius: 0.3
+    strength: 1.0
+  view_range: 10
+  brightness:
+    enabled: false
+    sky: 15
+    block: 15
+  billboard:
+    enabled: false
+    type: FIXED
+  glow:
+    enabled: false
+    color: 917248
+worlds:
+  - "*"

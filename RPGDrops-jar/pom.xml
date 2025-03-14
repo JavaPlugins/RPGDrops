@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>RPGDrops</artifactId>
+        <groupId>dev.lone</groupId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>RPGDrops-jar</artifactId>
+    <packaging>jar</packaging>
+
+    <build>
+        <plugins>
+            <!-- To remove the manifest files-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <finalName>${project.parent.artifactId}</finalName><!-- Jar file name is the parent module name -->
+                    <outputDirectory>${basedir}/../output/</outputDirectory>
+                    <descriptors>
+                        <descriptor>jar-no-dependencies.xml</descriptor>
+                    </descriptors>
+                    <appendAssemblyId>false</appendAssemblyId>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <useIncrementalCompilation>false</useIncrementalCompilation>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <release>16</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>3.1.0</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <configuration>
+                            <target>
+                                <!-- Copy JAR to multiple directories -->
+                                <copy file="${basedir}/../output/${project.parent.artifactId}.jar" todir="C:/Progetti/Minecraft/TestServer/1.20.6/plugins/"/>
+                                <copy file="${basedir}/../output/${project.parent.artifactId}.jar" todir="C:/Progetti/Minecraft/TestServer/1.21.1/plugins/"/>
+                            </target>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-core</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-nms_v1_19_R3</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-nms_v1_20_R2</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-nms_v1_20_R3</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-nms_v1_20_6</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>dev.lone</groupId>
+            <artifactId>RPGDrops-nms_v1_21_1</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
